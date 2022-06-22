@@ -1,0 +1,36 @@
+<html>
+<body>
+<mat-toolbar >
+  <mat-toolbar-row>
+    <button mat-raised-button routerLinkActive="active"  routerLink="/add" class="actbtn" >Vissza</button>
+    <button mat-raised-button routerLinkActive="active" (click)=logout() class="actbtn" >Kijelentkezés</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<br>
+  <table class="mat-elevation-z8">
+    <thead>
+    <tr>
+      <th colspan="5" class="mat-title">Szkennelt ügyfelek listája</th>
+    </tr>
+    <tr>
+      <th>Név</th>
+      <th>Email</th>
+      <th>Kor</th>
+      <th>Azonosító</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tr *ngFor="let reserv of Reserv; let i = index">
+      <td>{{reserv.name}}</td>
+      <td>{{reserv.email}}</td>
+      <td>{{reserv.age}}</td>
+      <td>{{reserv.identifier}}</td>
+      <td>
+        <button class="deletebtn" (click)="deleteRow(i)">Törlés</button>
+      </td>
+    </tr>
+  </table>
+  <br>
+</body>
+</html>
+

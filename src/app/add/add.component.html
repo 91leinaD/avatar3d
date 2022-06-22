@@ -1,0 +1,38 @@
+<html>
+<body>
+<mat-toolbar >
+<mat-toolbar-row>
+  <button mat-raised-button routerLinkActive="active" routerLink="/list" class="actbtn" >Szkennelt ügyfelek</button>
+  <button mat-raised-button routerLinkActive="active" (click)=logout() class="actbtn" >Kijelentkezés</button>
+</mat-toolbar-row>
+</mat-toolbar>
+<br><br>
+<mat-card>
+  <mat-card-title class="mat-title"> Szkennelt ügyfél adatainak rögzítése</mat-card-title>
+    <form [formGroup]="createForm" (ngSubmit)="onSubmit()" class="form" >
+      <mat-form-field >
+        <input matInput minlength="6" #input type="text" placeholder="Név:" formControlName="name">
+        <mat-hint >Minimum 6 karakter {{input.value?.length || 0}}/6</mat-hint>
+      </mat-form-field>
+      <br>
+      <mat-form-field >
+        <mat-label>E-mail:</mat-label>
+        <input matInput type="text" placeholder="example@example.com" formControlName="email">
+      </mat-form-field>
+      <br>
+      <mat-form-field >
+        <mat-label>Kor:</mat-label>
+        <input matInput type="number" placeholder="pl. 25" formControlName="age">
+      </mat-form-field>
+      <br>
+      <mat-form-field >
+        <mat-label>Azonosító:</mat-label>
+        <input matInput type="text" placeholder="pl. ABC123" formControlName="identifier">
+        
+    </mat-form-field>
+      <br>
+      <button mat-raised-button type="submit"  class="btn" >Felvétel leltárba</button>
+    </form>
+  </mat-card>
+</body>
+</html>

@@ -1,0 +1,90 @@
+mat-panel-title {
+  font-family: Tahoma, Geneva, sans-serif;
+  text-align: left;
+  color: white;
+}
+
+body {
+  background-image: url(avatar3d_bg.png) ;
+  background-repeat: no-repeat;
+  height:100%;
+  background-size:100%;
+  background-position:center;
+  background-attachment: fixed;
+}
+#everything{
+  margin: auto;
+  width: 100%;
+  text-align: left;
+}
+
+.form {
+  text-align: center;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+  border:gray;
+  border-radius: 4px;
+}
+
+.input {
+  margin: 5px;
+  padding: 10px;
+  color:yellow;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: rgb(80, 246, 180);
+  border: 2px solid rgb(80, 246, 180);
+}
+
+.btn-other:hover {
+  color:rgb(26, 163, 255);
+  font-weight: bold;
+}
+
+.btn {
+  width: max-content;
+  text-align: bottom;
+  margin: 5px;
+  padding: 10px 40px 10px 40px;
+  color: rgb(22, 153, 218);
+  background-color: transparent;
+  border: 2px solid rgb(22, 153, 218);
+}
+
+
+.btn-other {
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+}
+
+::ng-deep .mat-focused .mat-form-field-label {
+  color: rgb(26, 163, 255) !important;
+}
+
+::ng-deep.mat-form-field-underline {
+  background-color: rgb(26, 163, 255) !important;
+}
+
+::ng-deep.mat-form-field-ripple {
+  background-color: rgb(26, 163, 255) !important;;
+}
+
+::ng-deep input.mat-input-element {
+  color: rgb(26, 163, 255);
+}
+
+
+mat-card{
+  margin: 0 auto;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+

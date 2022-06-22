@@ -1,0 +1,67 @@
+.mat-title {
+  color: gray;
+}
+
+body {
+  background-image: url(avatar3d_bg.png) ;
+  background-repeat: no-repeat;
+  height:100%;
+  background-size:100%;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+.form {
+  text-align: center;
+}
+
+#everything{
+  margin: auto;
+  width: 100%;
+  text-align: left;
+}
+
+input {
+  margin: 5px;
+  padding: 10px;
+}
+
+.input {
+  margin: 5px;
+  padding: 10px;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: rgb(80, 246, 180);
+  border: 2px solid rgb(80, 246, 180);
+}
+
+.btn-other:hover {
+  color:#18a3ff;
+  font-weight: bold;
+}
+
+.btn {
+  width: max-content;
+  text-align: bottom;
+  margin: 5px;
+  padding: 10px 40px 10px 40px;
+  color: rgb(22, 153, 218);
+  background-color: transparent;
+  border: 2px solid rgb(22, 153, 218);
+}
+
+.btn-other {
+  text-align: center;
+  color: gray;
+  cursor: pointer;
+}
+
+
+mat-card{
+  margin: 0 auto ;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}

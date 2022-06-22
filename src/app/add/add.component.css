@@ -1,0 +1,80 @@
+body {
+  background-image: url(avatar3d_bg.png) ;
+  background-repeat: no-repeat;
+  height:100%;
+  background-size:100%;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+.mat-title {
+  color: rgb(22, 153, 218);
+}
+
+.mat-toolbar{
+  top: 8px;
+  left:10px;
+  height: 64px;
+  position: absolute;
+  z-index: 100;
+  width: 99%;
+  background-color: transparent;
+  margin: auto;
+}
+
+.mat-toolbar-row{
+  justify-content: space-between;
+}
+
+
+input {
+  margin: 5px;
+  padding: 10px;
+  color: rgb(22, 153, 218);
+}
+
+.input {
+  margin: 5px;
+  padding: 10px;
+  color: rgb(22, 153, 218);
+}
+
+.actbtn:hover {
+  background-color: transparent;
+  color: rgb(80, 246, 180);
+  border: 2px solid rgb(80, 246, 180);
+}
+
+.actbtn {
+  width: max-content;
+  text-align: bottom;
+  margin: 5px;
+  padding: 10px 40px 10px 40px;
+  color: rgb(22, 153, 218);
+  background-color: transparent;
+  border: 2px solid rgb(22, 153, 218);
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: rgb(80, 246, 180);
+  border: 2px solid rgb(80, 246, 180);
+}
+
+.btn {
+  width: max-content;
+  text-align: bottom;
+  margin: 5px;
+  padding: 10px 40px 10px 40px;
+  color: rgb(22, 153, 218);
+  background-color: transparent;
+  border: 2px solid rgb(22, 153, 218);
+}
+
+.mat-card{
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(80, 246, 180);
+}

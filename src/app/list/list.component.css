@@ -1,0 +1,97 @@
+body {
+  background-image: url(avatar3d_bg.png) ;
+  background-repeat: no-repeat;
+  height:100%;
+  background-size:100%;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+.mat-elevation-z8 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  border: rgb(22, 153, 218) 3px solid;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.mat-title{
+  border-bottom: rgb(0, 0, 0) 3px solid;
+
+}
+
+.mat-toolbar{
+  top: 8px;
+  left:10px;
+  height: 64px;
+  position: absolute;
+  z-index: 100;
+  width: 99%;
+  background-color: transparent;
+  margin: auto;
+  
+}
+
+.mat-toolbar-row{
+  justify-content: space-between;
+  
+}
+
+.title{
+  
+  font-size: 1.5em;
+  
+}
+
+table{
+  border-collapse: collapse;
+  color:rgb(48, 48, 48);
+  
+}
+
+th {
+  background-color: rgb(22, 153, 218);
+  
+  font-weight: bold;
+
+}
+
+th, td {
+  padding: 15px;
+  background-color: rgb(22, 153, 218, 0.8);
+  text-align: center;
+}
+
+td {
+  border: rgb(22, 153, 218) 3px solid;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.actbtn:hover {
+  background-color: transparent;
+  color: rgb(80, 246, 180);
+  border: 2px solid rgb(80, 246, 180);
+}
+
+.actbtn {
+  width: max-content;
+  text-align: bottom;
+  margin: 5px;
+  padding: 10px 40px 10px 40px;
+  color: rgb(22, 153, 218);
+  background-color: transparent;
+  border: 2px solid rgb(22, 153, 218);
+}
+
+.deletebtn {
+  width: max-content;
+  text-align: bottom;
+  margin: 2px;
+  padding: 3px 10px 3px 10px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(157, 18, 18, 0.8);
+  border: 2px solid rgb(0, 0, 0);
+}
+
